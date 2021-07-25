@@ -44,20 +44,6 @@ export default function Layout({
               </Link>
             </div>
             <div className="flex space-x-4">
-              <Link href="/category/maker2">
-                <a className="text-white hover:bg-pink-600 px-3 py-2 rounded transition">
-                  DAHLIA
-                </a>
-              </Link>
-            </div>
-            <div className="flex space-x-4">
-              <Link href="/category/maker1">
-                <a className="text-white hover:bg-pink-600 px-3 py-2 rounded transition">
-                  プレステージ
-                </a>
-              </Link>
-            </div>
-            <div className="flex space-x-4">
               <Link href="/category/maker0">
                 <a className="text-white hover:bg-pink-600 px-3 py-2 rounded transition">
                   FALENO

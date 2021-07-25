@@ -27,6 +27,10 @@ export default function Layout({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
+        <meta
+          name="google-site-verification"
+          content="7_ZHDHb9q5QDql9_JbvC0SIN8Ti_Eepkv-l4hBr03Eg"
+        />
         <link rel="canonical" href={url} />
       </Head>
       <header>

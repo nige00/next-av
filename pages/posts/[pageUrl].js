@@ -1,7 +1,6 @@
 import Layout from "../../components/Layout";
 import { posts } from "../../json/hnextAvTitle";
 import Image from "next/image";
-import AvData from "../../components/AvData";
 import JoyuData from "../../components/JoyuData";
 import KantokuData from "../../components/KantokuData";
 import JanruData from "../../components/JanruData";

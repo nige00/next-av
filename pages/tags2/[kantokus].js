@@ -31,12 +31,12 @@ export default function Post({ post }) {
   });
 
   const newlist = [];
-  if (kantokumei.length <= 20) {
+  if (kantokumei.length <= 10) {
     for (let i = 0; i < kantokumei.length; i++) {
       newlist.push(kantokumei[i]);
     }
   } else {
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 10; i++) {
       newlist.push(kantokumei[i]);
     }
   }
@@ -56,7 +56,7 @@ export default function Post({ post }) {
       <div className="sm:px-4 py-4 font-sans">
         <p>{koteibun.teikei}</p>
       </div>
-      {kantokumei.length <= 20 && (
+      {kantokumei.length <= 10 && (
         <div className="font-sans">{`作品数：${newlist.length}件`}</div>
       )}
       <div className="flex flex-col items-center justify-center cursor-pointer py-10">

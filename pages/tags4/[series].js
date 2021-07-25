@@ -33,12 +33,12 @@ export default function Post({ post }) {
   });
 
   const newlist = [];
-  if (seriesmei.length <= 20) {
+  if (seriesmei.length <= 10) {
     for (let i = 0; i < seriesmei.length; i++) {
       newlist.push(seriesmei[i]);
     }
   } else {
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 10; i++) {
       newlist.push(seriesmei[i]);
     }
   }
@@ -58,7 +58,7 @@ export default function Post({ post }) {
       <div className="sm:px-4 py-4 font-sans">
         <p>{koteibun.teikei}</p>
       </div>
-      {seriesmei.length <= 20 && (
+      {seriesmei.length <= 10 && (
         <div className="font-sans">{`作品数：${newlist.length}件`}</div>
       )}
       <div className="flex flex-col items-center justify-center cursor-pointer py-10">

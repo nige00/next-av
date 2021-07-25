@@ -30,6 +30,17 @@ export default function Post({ post }) {
     return 0;
   });
 
+  const newlist = [];
+  if (kantokumei.length <= 20) {
+    for (let i = 0; i < kantokumei.length; i++) {
+      newlist.push(kantokumei[i]);
+    }
+  } else {
+    for (let i = 0; i < 20; i++) {
+      newlist.push(kantokumei[i]);
+    }
+  }
+
   return (
     <Layout
       title={`${koteibun.date}${koteibun.next}で見れる『${post.kantokuName}』監督作品の配信状況一覧`}
@@ -45,11 +56,9 @@ export default function Post({ post }) {
       <div className="sm:px-4 py-4 font-sans">
         <p>{koteibun.teikei}</p>
       </div>
-      <div className="font-sans">
-        {"作品数："}
-        {kantokumei.length}
-        {"件"}
-      </div>
+      {kantokumei.length <= 20 && (
+        <div className="font-sans">{`作品数：${newlist.length}件`}</div>
+      )}
       <div className="flex flex-col items-center justify-center cursor-pointer py-10">
         <span className="text-sm py-1">{koteibun.micro_copy}</span>
         <a
@@ -62,7 +71,7 @@ export default function Post({ post }) {
         </a>
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1 gap-4">
-        {kantokumei.map((elem) => {
+        {newlist.map((elem) => {
           return (
             <div className="mt-4 font-sans" key={elem.pageUrl}>
               <Link href={`/posts/${elem.pageUrl}`} passHref>

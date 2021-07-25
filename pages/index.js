@@ -27,7 +27,7 @@ const Home = () => {
 
         <div className="py-4">
           <h2 className="text-xl">人気女優の作品</h2>
-          <JoyuP data={20} />
+          <JoyuP data={10} />
         </div>
         <div className="flex flex-col items-center justify-center cursor-pointer py-4 pt-12">
           <span className="text-sm py-1">{koteibun.micro_copy}</span>
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div className="py-4">
           <h2 className="text-xl">人気ジャンルの作品</h2>
-          <JanruP data={15} />
+          <JanruP data={4} />
         </div>
         <div className="flex flex-col items-center justify-center cursor-pointer py-4 pt-12">
           <span className="text-sm py-1">{koteibun.micro_copy}</span>
@@ -72,7 +72,7 @@ const Home = () => {
         </div>
         <div className="py-4">
           <h2 className="text-xl">人気シリーズの作品</h2>
-          <SeriesP data={20} />
+          <SeriesP data={10} />
         </div>
         <div className="flex flex-col items-center justify-center cursor-pointer py-4 pt-12">
           <span className="text-sm py-1">{koteibun.micro_copy}</span>
@@ -87,7 +87,7 @@ const Home = () => {
         </div>
         <div className="py-4">
           <h2 className="text-xl">人気メーカーの作品</h2>
-          <MakerP data={15} />
+          <MakerP data={10} />
         </div>
         <div className="flex flex-col items-center justify-center cursor-pointer py-4 pt-12">
           <span className="text-sm py-1">{koteibun.micro_copy}</span>

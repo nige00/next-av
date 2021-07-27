@@ -1,7 +1,7 @@
 // sitemap.config.js
 
 module.exports = {
-  siteUrl: "https://www.next-av-app.com",
+  siteUrl: "https://next-av.vercel.app",
   generateRobotsTxt: true,
   sitemapSize: 7000,
 };

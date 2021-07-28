@@ -7,5 +7,5 @@ export const koteibun = {
   teikei:
     "本ページの情報は2021年7月時点のものです。最新の配信状況はU-NEXTサイトにてご確認ください。",
   keyword: "U-NEXT,H-NEXT,AV,エロ動画,見放題,見れる,対象",
-  domain: "https://next-av.vercel.app",
+  domain: "https://www.next-av-app.com",
 };

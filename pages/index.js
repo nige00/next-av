@@ -40,9 +40,9 @@ const Home = () => {
             U-NEXTで視聴する
           </a>
         </div>
-        <div className="py-4">
+        {/* <div className="py-4">
           <h2 className="text-xl">人気ジャンルの作品</h2>
-          <JanruP data={4} />
+          <JanruP data={2} />
         </div>
         <div className="flex flex-col items-center justify-center cursor-pointer py-4 pt-12">
           <span className="text-sm py-1">{koteibun.micro_copy}</span>
@@ -54,7 +54,7 @@ const Home = () => {
           >
             U-NEXTで視聴する
           </a>
-        </div>
+        </div> */}
         <div className="py-4">
           <h2 className="text-xl">人気監督の作品</h2>
           <KantokuP data={10} />

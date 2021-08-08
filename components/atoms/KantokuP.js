@@ -69,12 +69,10 @@ const KantokuP = ({ data }) => {
             passHref
           >
             <a>
-              <div className="mt-4 font-sans bg-pink-100 rounded px-6 py-3 hover:opacity-80 transition cursor-pointer">
-                <a>
-                  <h3 className="flex flex-1 flex-col justify-center items-center sm:text-base text-sm font-sans pb-2">
-                    {pl.kantoku}
-                  </h3>
-                </a>
+              <section className="block mt-4 font-sans bg-pink-100 rounded px-6 py-3 hover:opacity-80 transition cursor-pointer">
+                <h3 className="flex flex-1 flex-col justify-center items-center sm:text-base text-sm font-sans pb-2">
+                  {pl.kantoku}
+                </h3>
 
                 <Image
                   src={pl.avImg}
@@ -82,7 +80,7 @@ const KantokuP = ({ data }) => {
                   width={1088}
                   height={612}
                 />
-              </div>
+              </section>
             </a>
           </Link>
         );

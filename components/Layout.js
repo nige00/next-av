@@ -22,7 +22,7 @@ export default function Layout({
         <meta property="og:image" content={image} />
         <meta property="og:site_name" content="【U-NEXT】AV見放題情報まとめ" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@tcr_js" />
+        <meta name="twitter:site" content="" />
         <meta name="twitter:url" content={image} />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />

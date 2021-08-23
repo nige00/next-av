@@ -1,7 +1,7 @@
 export const koteibun = {
   u_link:
     "https://link-a.net/gate.php?guid=on&mcode=kn4tehcd&acode=jwejkj7jxusz&itemid=0",
-  micro_copy: "＼【今なら】31日間無料 + 1200円分のポイントGET！／",
+  micro_copy: "＼31日間無料 + 1200円分のポイントGET！／",
   date: "【2021年8月】",
   next: "U-NEXT(H-NEXT)",
   teikei:
